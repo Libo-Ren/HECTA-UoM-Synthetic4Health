@@ -4,7 +4,9 @@ A system to generate annotated, synthetic, de-identified clinical letters while 
 
 This work presents a system for generating synthetic, de-identified clinical letters that are distinguishable from the originals, while preserving entities and document structures. We employed a hybrid approach, combining rule-based methods and named entity recognition (NER), to safeguard necessary information while exploring different models. We investigated various masking ratios and strategies based on token types (e.g., POS tags, stopwords) to balance diversity and similarity in synthetic letters. Our results demonstrate that this system produces high-quality synthetic clinical letters and is effective in protecting key information using encoder-only models, based on NER, POS tags, and stopword status.
 
-Pre-print paper: https://arxiv.org/abs/2409.09831
+Pre-print paper: https://arxiv.org/pdf/2409.09501
+
+related work: https://arxiv.org/abs/2409.09831
 
 # Abstract 
 Since clinical letters contain sensitive information, clinical-related datasets can not be widely applied in model training, medical research, and teaching. This work aims to generate reliable, various, and de-identified synthetic clinical letters. We explored different pre-trained language models (PLMs) for masking and generating text to achieve this goal. After that, we worked on Bio\_ClinicalBERT, a high-performing model, and experimented with different masking strategies. Both qualitative and quantitative methods were used for evaluation. A downstream task, Named Entity Recognition (NER), was also implemented to assess the usability of these synthetic letters.
