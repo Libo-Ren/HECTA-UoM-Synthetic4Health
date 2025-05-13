@@ -4,6 +4,7 @@ A system to generate annotated, synthetic, de-identified clinical letters while 
 
 This work presents a system for generating synthetic, de-identified clinical letters that are distinguishable from the originals, while preserving entities and document structures. We employed a hybrid approach, combining rule-based methods and named entity recognition (NER), to safeguard necessary information while exploring different models. We investigated various masking ratios and strategies based on token types (e.g., POS tags, stopwords) to balance diversity and similarity in synthetic letters. Our results demonstrate that this system produces high-quality synthetic clinical letters and is effective in protecting key information using encoder-only models, based on NER, POS tags, and stopword status.
 
+Paper available at: (https://aclanthology.org/2025.privatenlp-main.6)
 ---
 > **Note:** Due to data use restrictions, the MIMIC-IV-Note dataset (v2.2) cannot be publicly shared in this repository. However, it is available to credentialed users via PhysioNet (https://physionet.org/content/mimic-iv-note/2.2/) upon completion of the required data use agreement and approval process.
 
